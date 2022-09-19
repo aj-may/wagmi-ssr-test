@@ -1,5 +1,5 @@
 {
-  "name": "wagmi-persister-test",
+  "name": "wagmi-ssr-test",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,9 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "ethers": "^5.7.1",
     "next": "12.3.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "wagmi": "^0.6.6"
   },
   "devDependencies": {
     "@types/node": "18.7.18",
